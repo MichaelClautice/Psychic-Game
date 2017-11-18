@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <!-- •••••THIS IS MICHAEL CLAUTICE'S PSYCHIC GAME••••• -->
+      <!--*-->
+      <!-- HERE'S SOME HEAD ELEMENT "HOUSEKEEPING" CODE -->
+      <!--*-->
+      <meta charset="UTF-8">
+      <!--*-->
+      <!-- Website Title & Description for Search Engine purposes
+         (Brad H Course 1) -->
+      <title>Mike's Javascript Psychic Game</title>
+      <meta name="description" content="This is a alphabet letter guessing game.">
+      <!--*-->
+      <!-- from http://getbootstrap.com/ -
+         "If you’re using our compiled JavaScript, don’t forget to include CDN versions of jQuery and Popper.js before it." -->
+      <!--*-->
+      <!-- BOOTSTRAP JQUERY CDN -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <!--
+         *
+          -->
+      <!-- BOOTSTRAP POPPER CDN -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+      <!--
+         *
+          -->
+      <!-- from http://getbootstrap.com/ -
+         "Skip the download with the Bootstrap CDN to deliver cached version of Bootstrap’s compiled CSS and JS to your project. -->
+      <!--*-->
+      <!-- BOOTSTRAP CSS CDN -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+      <!--
+         *<
+          -->
+      <!-- BOOTSTRAP JS CDN -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+      <!--
+         *
+          -->
+      <!-- link to reset.css (same as normalize.css) -->
+      <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+      <!--
+         *
+          -->
+      <!-- link to my external css file -->
+      <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+      <!--
+         *
+          -->
+      <!-- •••••THIS IS MICHAEL CLAUTICE'S PSYCHIC GAME••••• -->
+      <!--
+         *
+          -->
+      <!--  (Brad H Course 2)  -->
+      <!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+      <!--
+         *
+         -->
+   </head>
+   <!-- •••••THIS IS MICHAEL CLAUTICE'S PSYCHIC GAME••••• -->
+   <!--*-->
+   <!-- NOW, HERE'SSSSS DA MARKUP! -->
+   <!--*-->
+   <body>
+      <!-- everything above the footer is inside this container div -->
+      <!--*-->
+      <!-- Containers provide a means to center and horizontally pad your site’s contents. Use .container for a responsive pixel width or .container-fluid for width: 100% across all viewport and device sizes. -->
+      <div class="container">
+      <!-- Rows are wrappers for columns. Each column has horizontal padding (called a gutter) for controlling the space between them. This padding is then counteracted on the rows with negative margins. This way, all the content in your columns is visually aligned down the left side. -->
+      <div class="row">
+         <!-- In a grid layout, content must be placed within columns and only columns may be immediate children of rows. -->
+         <div class="col-md-3">
+         </div>
+         <div class="col-md-6 text-center">
+            <header>
+               <br>
+               <h1>This is Michael Clautice's Psychic Game</h1>
+            </header>
+            <div class="instructions">
+               <h3>Try to guess the alphabet letter this game has picked.
+                  <br>
+                  Any letter from A - Z
+               </h3>
+               <br>
+               <img src="assets/images/neon_psychic.jpg" alt="neon psychic sign">
+               <h2>Are you Psychic?</h2>
+            </div>
+            <!-- •••••THIS IS MICHAEL CLAUTICE'S PSYCHIC GAME••••• -->
+            <!--Div for the score counters-->
+            <div id="scores">
+               <ul class="list-group">
+                  <li class="list-group-item">
+                     <p id="winsCounter">Your Total Wins: </p>
+                  </li>
+                  <li class="list-group-item">
+                     <p id="lossesCounter">Your Total Losses: </p>
+                  </li>
+                  <li class="list-group-item">
+                     <p id="guessesRemainingCounter">Your Guesses Left: </p>
+                  </li>
+                  <li class="list-group-item">
+                     <p id="lettersChosenCounter">Your Guesses So Far: </p>
+                  </li>
+               </ul>
+            </div>
+            <!-- close score counters -->
+            <div class="col-md-3">
+            </div>
+         </div>
+         <!-- close "row" -->
+      </div>
+      <!-- close "container" -->
+      <!--
+         *
+          -->
+      <!-- •••••THIS IS MICHAEL CLAUTICE'S PSYCHIC GAME••••• -->
+      <!-- footer -->
+      <div class="col-md-12">
+         <div class="footer push">
+            <footer class="footer text-center">
+               <div class="container">
+                  <p><a href="#">About Michael Clautice</a> | <a href="#">GitHub Repo</a>
+                     <br> &copy; 2017 Michael Clautice
+                  </p>
+               </div>
+            </footer>
+         </div>
+      </div>
+      <!-- •••••THIS IS MICHAEL CLAUTICE'S PSYCHIC GAME••••• -->
+      <!--
+         *
+          -->
+      <!-- ALL JAVASCRIPT AT THE BOTTOM OF THE PAGE FOR FASTER PAGE LOADING  (Brad H Course 1)  -->
+      <!--
+         * JAVASCRIPT - JAVASCRIPT - JAVASCRIPT - JAVASCRIPT
+          -->
+      <!--     <script type="text/javascript" src="assets/js/app.js"></script> -->
+      <script type="text/javascript" src="assets/javascript/game.js"></script>
+      <!--
+         *
+          -->
+   </body>
+</html>

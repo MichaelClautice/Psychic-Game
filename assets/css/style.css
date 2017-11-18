@@ -1,0 +1,66 @@
+/*•••••THIS IS MICHAEL CLAUTICE'S PSYCHIC GAME•••••*/
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  color: #ffff00;
+  background-image: url("");
+  font-size: 18px;
+  line-height: 34px;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  background-color: #0000ff;
+  height: 100%;
+}
+
+.list-group-item {
+  background-color: #ffff00;
+}
+
+a {
+  color: #ffff00;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+img {
+  border-style: solid;
+  border-color: red;
+  border-width: 3px;
+}
+
+.container {
+  min-height: 100%;
+  /*  height: auto !important;*/
+  height: 100%;
+  margin: 0 auto -4em;
+}
+
+
+/*•••••THIS IS MICHAEL CLAUTICE'S PSYCHIC GAME•••••*/
+
+#scores {
+  text-align: left;
+  color: #0000ff;
+}
+
+#container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+}
+
+
+/*•••••THIS IS MICHAEL CLAUTICE'S PSYCHIC GAME•••••*/
+
+.footer {
+  color: #ffff00;
+  height: 4em;
+  margin-top: 25px;
+  text-align: center;
+  background-color: #00008B;
+}
