@@ -1,15 +1,13 @@
 
-## This is the API-GIF_Finder
+## Psychic Game
 
-• Topic: Human Emotions!!
+• Psychic Game will randomly pick a letter, and the user has to guess which letter the game chose.
 
-• Click on a gif button to view 10 giffs of that emotion.
+• The game will keep track of the number of correct and incorrect guesses, and the number of guesses remanining.
 
-• Click on an individual gif to toggle from static to animated and click again to return to static.
+• When the player wins - or loses after using up the available guesses - the game will start over again without a page refresh.
 
-• Add a gif button to the collection via the Emotion Submission Form.
-
-• Please checkout out the deployed app here - https://michaelclautice.github.io/API-GIF_FInder/
+• Please checkout out the deployed app here - https://michaelclautice.github.io/Psychic-Game/
 
 ## Screenshots
 
