@@ -11,7 +11,7 @@
 
 ## Screenshots
 
-![screenshot](https://github.com/MichaelClautice/Psychic-Game/blob/master/screenshots/Psychic Game.png)
+![screenshot](https://github.com/MichaelClautice/Psychic-Game/blob/master/screenshots/Psychic-Game.png)
 
 
 
